@@ -15,11 +15,14 @@
         "symfony/config"               : "~2.5",
         "symfony/yaml"                 : "~2.5"
     },
+    "suggest": {
+        "symfony/framework-bundle" : "To use this lib as a full Symfony Bundle"
+    },
     "require-dev": {
-        "symfony/framework-bundle": "~2.7",
-        "sensio/generator-bundle": "~3.0",
-        "symfony/phpunit-bridge": "~2.7",
-        "phpunit/phpunit": "4.7"
+        "symfony/framework-bundle": "~2.5",
+        "symfony/browser-kit": "~2.5",
+        "symfony/debug"   : "~2.5",
+        "phpunit/phpunit" : ">=3.7.0"
     },
     "minimum-stability": "dev"
 }
