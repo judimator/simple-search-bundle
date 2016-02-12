@@ -1,12 +1,12 @@
 {
     "name": "judim/search",
-    "license": "proprietary",
+    "description": "Allow to find files by content",
+    "keywords": ["symfony2", "file", "search"],
     "type": "symfony-bundle",
-    "autoload": {
-        "psr-4": {
-            "Ju\\SimpleSearchBundle\\": ""
-        }
-    },
+    "license": "GPL",
+    "authors": [{
+        "name" : "Vilks Yuriy"
+    }],
     "require": {
         "php"                          : ">=5.6.0",
         "ext-mbstring"                 : "*",
@@ -24,5 +24,9 @@
         "symfony/debug"   : "~2.5",
         "phpunit/phpunit" : ">=3.7.0"
     },
-    "minimum-stability": "dev-master"
+    "autoload": {
+        "psr-4": {
+            "Vilks\\FileSearchBundle\\": ""
+        }
+    }
 }
