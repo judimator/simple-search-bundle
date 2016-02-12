@@ -16,5 +16,5 @@ Add bundle tu kernel:
 
 <h1>Usage</h1>
 
-<pre><code>find <needle>  [--engine=ENGINE] [--pattern=FILE_PATTERN]<dirs> 
+<pre><code>php app/console find <needle>  [--engine=ENGINE] [--pattern=FILE_PATTERN]<dirs> 
 </code></pre>
