@@ -9,7 +9,7 @@ Download via composer:
 <pre><code>composer require /simple-search-bundle
 </code></pre>
 
-Add bundle tu kernel:
+Add bundle to Kernel:
 
 <pre><code>new Ju\SimpleSearchBundle\JuSimpleSearchBundle()
 </code></pre>
