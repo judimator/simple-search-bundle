@@ -23,5 +23,5 @@
         "sensio/generator-bundle": "~3.0",
         "symfony/phpunit-bridge": "~2.7"
     },
-    "minimum-stability": "dev-master"
+    "minimum-stability": "dev"
 }
