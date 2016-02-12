@@ -6,7 +6,7 @@ Allow to search files by content.
 
 Download via composer:
 
-<pre><code>composer require judim/simple-search-bundle
+<pre><code>composer require judim/simple-search-bundle:dev-mater
 </code></pre>
 
 Add bundle to Kernel:
