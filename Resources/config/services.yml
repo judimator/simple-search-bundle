@@ -1,0 +1,23 @@
+parameters:
+    ju.search.default_engine: ''
+    ju.search.engines: []
+
+services:
+    ju.search.engine.finder:
+        class: Ju\SimpleSearchBundle\Engine\JuFinderEngine
+        tags:
+            - { name: ju.search.engine, type: ju_engine }
+
+    ju.search.factory:
+        class: Ju\SimpleSearchBundle\Engine\EngineCollection
+
+    ju.search.manager:
+        class: Ju\SimpleSearchBundle\SearchEngineInterface
+        factory: ['@ju.search.factory', get]
+
+    ju.search.command:
+        class: Ju\SimpleSearchBundle\Command\FindFileCommand
+        arguments: ['%ju.search.default_engine%', '%ju.search.engines%']
+        tags:
+            - { name: console.command }
+
