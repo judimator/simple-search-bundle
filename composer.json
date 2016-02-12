@@ -1,5 +1,5 @@
 {
-    "name": "judim/search",
+    "name": "judim/simple-search-bundle",
     "license": "proprietary",
     "type": "symfony-bundle",
     "autoload": {
