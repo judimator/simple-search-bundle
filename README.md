@@ -1,5 +1,6 @@
-<h1>JuSimpleSearchBundle</h1>
 
+JuSimpleSearchBundle
+  ==================
 Allow to search files by content.
 
 <h2>Installation</h2>
@@ -16,5 +17,7 @@ Add bundle to Kernel:
 
 <h1>Usage</h1>
 
-<pre><code>php app/console find <needle>  <dirs> [--engine=ENGINE] [--pattern=FILE_PATTERN] 
-</code></pre>
+<pre>
+<code>php app/console find <needle>  <dirs> [--engine=ENGINE] [--pattern=FILE_PATTERN] 
+</code>
+</pre>
