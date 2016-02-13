@@ -18,6 +18,6 @@ Add bundle to Kernel:
 <h1>Usage</h1>
 
 <pre>
-<code>php app/console find &lt;needle&gt; &lt;dirs&gt; [--engine=ENGINE] [--pattern=FILE_PATTERN] 
+<code>php app/console find &lt;string&gt; &lt;dirs&gt; [--engine=ENGINE] [--pattern=FILE_PATTERN] 
 </code>
 </pre>
