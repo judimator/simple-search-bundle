@@ -1,6 +1,6 @@
 
-JuSimpleSearchBundle
-  ==================
+<h1>JuSimpleSearchBundle</h1>
+
 Allow to search files by content.
 
 <h2>Installation</h2>
